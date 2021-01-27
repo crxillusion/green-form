@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.form-container {
+    background-color: #9cbc2c;
+    border-radius: 3px;
+    width: 40%;
+    min-width: 480px;
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.form-title {
+    font-size: 22px;
+    margin: 10px 0;
+}
+
+.input-field-container {
+    border: 1px solid white;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.45);
+    margin: 5px 0;
+    padding: 10px;
+}
+
+.input-title {
+    display: inline-block;
+    width: 120px;
+    vertical-align: top;
+}
+
+.input-field {
+    border-radius: 3px;
+    border: none;
+    padding: 4px;
+    width: 200px;
+}
+
+.input-field::placeholder {
+    font-style: italic;
+}
+
+.labels {
+    margin: 15px 0 0 0;
+}
+
+.cardtype {
+    margin-right: 20px;
+}
+
+textarea {
+    height: 100px;
+    max-width: 200px;
+    max-height: 100px;
+    min-width: 200px;
+    min-height: 30px;
+}
+
+.btn-container {
+    margin: 20px 0 0 0;
+    text-align: center;
+}
+
+.submit-button {
+    border-radius: 100px;
+    color: white;
+    background: #384313;
+    padding: 10px 20px;
+    border: none;
+    font-size: 20px;
+    text-transform: uppercase;
+}

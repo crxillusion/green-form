@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="form-container">
+    <form>
+        <div class="form-block">
+            <p class="form-title">Step 1: Your details</p>
+            <div class="input-field-container">
+                <label for="nameinput" class="input-title">Name</label>
+                <input type="text" name="name" placeholder="First and last name" id="nameinput" class="input-field">
+            </div>
+            <div class="input-field-container">
+                <label for="emailinput" class="input-title">Email</label>
+                <input type="email" name="email" placeholder="First and last name" id="emailinput" class="input-field">
+            </div>
+            <div class="input-field-container">
+                <label for="phoneinput" class="input-title">Phone</label>
+                <input type="tel" name="phone" placeholder="Eg. +4475000000000" id="phoneinput" class="input-field">
+            </div>
+        </div>
+        <div class="form-block">
+            <p class="form-title">Step 2: Delivery address</p>
+            <div class="input-field-container">
+                <label for="address" class="input-title">Address</label>
+                <textarea name="address" id="address" class="input-field"></textarea>
+            </div>
+            <div class="input-field-container">
+                <label for="postcode" class="input-title">Post code</label>
+                <input type="text" class="input-field" name="postcode" id="postcode">
+            </div>
+            <div class="input-field-container">
+                <label for="country" class="input-title">Country</label>
+                <input type="text" name="country" class="input-field" id="country">
+            </div>
+        </div>
+        <div class="form-block">
+            <p class="form-title">Step 3: Card Details</p>
+            <div class="input-field-container">
+                <p class="input-title">Card type</p>
+                <div class="labels">
+                    <label class="cardtype">
+                        <input type="radio" name="cardtype" value="visa">
+                        <img src="images/visa.png">
+                        <span>VISA</span>
+                    </label>
+                    <label class="cardtype">
+                        <input type="radio" name="cardtype" value="amex">
+                        <img src="images/amex.png">
+                        <span>AmEx</span>
+                    </label>
+                    <label class="cardtype">
+                        <input type="radio" name="cardtype" value="mastercard">
+                        <img src="images/master.png">
+                        <span>Mastercard</span>
+                    </label>
+                </div>
+
+            </div>
+            <div class="input-field-container">
+                <label for="cardnumber" class="input-title">Card number</label>
+                <input type="text" name="cardnumber" id="cardnumber" class="input-field">
+            </div>
+            <div class="input-field-container">
+                <label for="security" class="input-title">Security code</label>
+                <input type="password" name="security" id="security" class="input-field">
+            </div>
+            <div class="input-field-container">
+                <label for="cardname" class="input-title">Name on card</label>
+                <input type="text" name="security" id="cardname" placeholder="Exact name as on the card"
+                       class="input-field">
+            </div>
+        </div>
+        <div class="btn-container">
+            <button type="submit" class="submit-button">Buy it!</button>
+        </div>
+
+    </form>
+</div>
+</body>
+</html>
